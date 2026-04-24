@@ -134,8 +134,3 @@ See `backend/.env.example` for all options.
 | `CHUNK_OVERLAP` | Chunk overlap | 50 |
 | `TOP_K` | Top chunks to retrieve | 3 |
 
----
-
-## License
-
-MIT
