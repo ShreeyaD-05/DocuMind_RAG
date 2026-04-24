@@ -1,0 +1,70 @@
+# ========================
+# Secrets
+# ========================
+backend/.env
+.env
+.env.*
+!.env.example
+!backend/.env.example
+
+# ========================
+# Python cache
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# ========================
+# FAISS index (auto-generated on first upload)
+# ========================
+backend/faiss_index/index.faiss
+backend/faiss_index/metadata.pkl
+
+# ========================
+# Uploaded user documents
+# ========================
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# ========================
+# Frontend dependencies & build
+# ========================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# ========================
+# Docker override (local only)
+# ========================
+docker-compose.override.yml
+
+# ========================
+# Test & local dev files
+# ========================
+test_docs/
+test_local.py
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ========================
+# OS & editor
+# ========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ========================
+# Logs
+# ========================
+*.log
